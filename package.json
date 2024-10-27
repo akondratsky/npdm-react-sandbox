@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "demo": "concurrently \"bun run build --watch\" \"bun run server\"",
-    "server": "bun server.ts",
+    "server": "bun server/index.ts",
     "build": "rsbuild build --watch",
     "dev": "rsbuild dev",
     "lint": "eslint .",
@@ -15,7 +15,9 @@
     "@npdm/express": "^1.0.0",
     "@npdm/module-federation": "2.1.0",
     "concurrently": "^8.2.2",
+    "configcat-node": "^11.3.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "node-inject-html": "^0.0.5",
     "npdmjs-react-example": "2.1.1",

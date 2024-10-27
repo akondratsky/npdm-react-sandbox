@@ -22,3 +22,4 @@ const { loadDynamicModule } = initNpdm({
 
 export const MyDynamicButton = lazy(() => loadDynamicModule('button'));
 export const MyDynamicCheckbox = lazy(() => loadDynamicModule('checkbox'));
+

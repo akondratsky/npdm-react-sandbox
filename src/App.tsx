@@ -1,11 +1,10 @@
 import './App.css';
 import { MyDynamicButton, MyDynamicCheckbox } from './npdm';
 
-
 const App = () => {
   return (
     <div className="content">
-      <h1 style={{ marginBottom: 0 }}>NPDM Demo</h1>
+         <h1 style={{ marginBottom: 0 }}>NPDM Demo</h1>
       <p style={{ marginBottom: '50px' }}>
         Powered by Rsbuild
       </p>
